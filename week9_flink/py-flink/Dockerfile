@@ -1,4 +1,4 @@
-FROM flink:1.14.0
+FROM flink:1.16.0
 
 # install python3: it has updated Python to 3.9 in Debian 11 and so install Python 3.7 from source
 # it currently only supports Python 3.6, 3.7 and 3.8 in PyFlink officially.
@@ -26,6 +26,6 @@ RUN pip3 install /apache-flink-libraries*.tar.gz && pip3 install /apache-flink*.
 # flink-streaming-java_2.12-1.14.0.jar
 # kafka-clients-3.1.0.jar
 
-COPY flink-connector-kafka_2.12-1.14.0.jar /opt/flink/lib
-COPY flink-streaming-java_2.12-1.14.0.jar /opt/flink/lib
+COPY flink-connector-kafka_2.12-1.160.jar /opt/flink/lib
+COPY flink-streaming-java_2.12-1.16.0.jar /opt/flink/lib
 COPY kafka-clients-3.1.0.jar /opt/flink/lib
