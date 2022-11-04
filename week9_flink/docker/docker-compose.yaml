@@ -61,7 +61,7 @@ services:
       - broker1
     # image: flink:latest
     # customer image with python support, see ../py-flink/Dockerfile
-    image: barrymullan/pyflink:1.14.0
+    image: barrymullan/pyflink:1.16.0
     ports:
       - "8081:8081"
     command: jobmanager
@@ -79,7 +79,7 @@ services:
     hostname: taskmanager
     # flink:latest
     # customer image with python support, see ../py-flink/Dockerfile
-    image: barrymullan/pyflink:1.14.0
+    image: barrymullan/pyflink:1.16.0
     depends_on:
       - jobmanager
     command: taskmanager
