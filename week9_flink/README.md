@@ -505,7 +505,7 @@ wget https://repo1.maven.org/maven2/org/apache/flink/flink-sql-connector-kafka/1
 wget https://files.pythonhosted.org/packages/3f/dd/430abff4a4ca5482fb905e35753c7dfcef3bead778009db20a86132d9cdf/apache-flink-1.16.0.tar.gz
 
 # download flink libraries
-
+wget https://files.pythonhosted.org/packages/1b/7d/eaf77c219c3ba3a366c42c8a6b0b8713125a85eb331be0e449e05c3e429d/apache-flink-libraries-1.16.0.tar.gz
 # Build the docker image
 docker build --tag pyflink:1.14.0 
 # you can push this to your dockerhub repo by doing the following
