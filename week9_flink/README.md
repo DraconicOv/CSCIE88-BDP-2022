@@ -502,7 +502,7 @@ cd CSCIE88-BDP-Class/week9_flink/py-flink
 wget https://repo1.maven.org/maven2/org/apache/flink/flink-sql-connector-kafka_2.12/1.14.0/flink-sql-connector-kafka_2.12-1.14.0.jar
 
 # download flink 1.14.0 distribution
-wget https://files.pythonhosted.org/packages/33/6b/5f173570d61b164a41b30f56df7d16cd7c055809d244a236d3f6787c153e/apache-flink-1.14.0.tar.gz 
+wget https://files.pythonhosted.org/packages/1b/7d/eaf77c219c3ba3a366c42c8a6b0b8713125a85eb331be0e449e05c3e429d/apache-flink-libraries-1.16.0.tar.gz
 
 # download flink libraries
 wget https://files.pythonhosted.org/packages/3d/a3/685916e56b1e5ebdb3fe0ce6692c0e17a300bddf5cfa8ab7957289714aac/apache-flink-libraries-1.14.0.tar.gz
